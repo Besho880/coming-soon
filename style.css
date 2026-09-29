@@ -3,6 +3,7 @@ body {
     align-items: center;
     justify-content: center;
     background-color: black;
+    margin: 0;
 }
 
 .all {
@@ -96,5 +97,4 @@ button {
     bottom: 480px;
     left: 1180px;
     z-index: 0;
-
 }
