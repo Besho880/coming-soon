@@ -1,0 +1,100 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.all {
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.com {
+    font-family: sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+}
+
+.email {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    gap: 5px;
+    z-index: 10;
+}
+
+button {
+    padding: 10px;
+    z-index: 10;
+}
+
+.images {
+    display: flex;
+    gap: 30px;
+    position: relative;
+    justify-content: center;
+    margin-top: 25px;
+
+}
+
+.insta,
+.face,
+.twitter {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 60%;
+    display: flex;
+    align-items: center;
+    z-index: 10;
+    justify-content: center;
+
+}
+
+.insta img,
+.face img,
+.twitter img {
+    width: 20px;
+    height: 20px;
+}
+
+.email-1 {
+    background-color: black;
+    border: 0.5px solid gray;
+}
+
+.gradient-sphere-sp1 {
+    width: 600px;
+    height: 600px;
+    border-radius: 100%;
+    background: radial-gradient(#360436 6%, #19193b85 50%, #0c142942 70%, black);
+    position: absolute;
+    bottom: -250px;
+    left: -300px;
+    z-index: 0;
+}
+
+.gradient-sphere-sp2 {
+    width: 600px;
+    height: 600px;
+    border-radius: 100%;
+    background: radial-gradient(#360436 6%, #19193b85 50%, #0c142942 70%, black);
+    position: absolute;
+    bottom: 480px;
+    left: 1180px;
+    z-index: 0;
+
+}
